@@ -297,6 +297,7 @@ form button:hover {
     margin-right: 7px;
 }
 
+/* Media Queries for Responsiveness */
 @media (max-width: 950px) {
     .navbar :is(.hamburger-btn, .close-btn) {
         display: block;
@@ -365,7 +366,7 @@ form button:hover {
 
 .trusted-section {
     text-align: center;
-    margin-top: 40%;
+    margin-top: 35%; /* Menambahkan margin untuk memberikan ruang dari welcome text */
     padding-bottom: 20px;
     color: black;
 }
@@ -396,14 +397,14 @@ form button:hover {
 
 @media (max-width: 950px) {
     .trusted-section {
-        margin-top: 145%;
+        margin-top: 145%; /* Mengurangi margin untuk perangkat kecil */
     }
 
     .trusted-section h1 {
-        font-size: 1.5rem;
+        font-size: 1.5rem; /* Mengurangi ukuran font untuk perangkat kecil */
     }
 
     .trusted-section p {
-        font-size: 1rem;
+        font-size: 1rem; /* Mengurangi ukuran font untuk perangkat kecil */
     }
 }
